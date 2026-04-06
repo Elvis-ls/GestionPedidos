@@ -3,8 +3,6 @@ Pruebas unitarias para el módulo Pedido
 """
 
 import pytest
-import sys
-sys.path.insert(0, '/home/claude')
 
 from producto import Producto
 from pedido import Pedido

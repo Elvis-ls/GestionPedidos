@@ -4,12 +4,10 @@ Verifica la interacción entre Producto, Pedido y ProcesadorDePedidos
 """
 
 import pytest
-import sys
-sys.path.insert(0, '/home/claude')
 
 from producto import Producto
 from pedido import Pedido
-from procesador_pedido import ProcesadorDePedidos
+from procesador_pedidos import ProcesadorDePedidos
 
 class TestIntegracionSistemaGestionPedidos:
     """Clase de pruebas de integración para todo el sistema"""
