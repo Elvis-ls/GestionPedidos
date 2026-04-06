@@ -5,7 +5,7 @@ Demuestra el uso de los tres módulos: Producto, Pedido y ProcesadorDePedidos
 
 from producto import Producto
 from pedido import Pedido
-from procesador_pedidos import ProcesadorDePedidos
+from procesador_pedido import ProcesadorDePedidos
 
 
 def mostrar_separador():
